@@ -1,7 +1,3 @@
----
-food: Pizza
----
-
 # dev-doc
 Test of github pages
 
