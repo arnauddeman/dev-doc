@@ -6,6 +6,7 @@ food: Pizza
 # dev-doc
 Test of github pages
 
+
 <h1>{{ page.food }}</h1>
 
 
