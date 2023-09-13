@@ -1,5 +1,11 @@
 # dev-doc
 Test of github pages
+---
+food: Pizza
+---
+
+<h1>{{ page.food }}</h1>
+
 
 foo bar
 
