@@ -1,7 +1,7 @@
+# dev-doc
 ---
 food: Pizza
 ---
-# dev-doc
 
 Test of github pages
 
