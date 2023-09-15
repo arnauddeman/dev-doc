@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Architecture
-permalink: /arch/
+title: Reports
+permalink: /reports/
 is_menu_entry: true
 position: left
-order: 20
+order: 10
 ---
