@@ -4,7 +4,7 @@
     <!-- <div class="wrapper"> -->
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <img src="{{ site.data.constants.header_logo }}" />
+    <img src="{{ site.data.constants.header_logo | relative_url }}" />
 
     <div class="titles-container">
       <div class="site-main-title">{{ site.title | escape }}</div>

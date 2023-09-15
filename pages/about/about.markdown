@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About 
-permalink: about/
+permalink: /about/
 is_menu_entry: true
 position: right
 ---

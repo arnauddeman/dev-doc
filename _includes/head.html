@@ -5,8 +5,8 @@
   {%- seo -%}
   <!-- Pipe  '| relative_url' removed as it does not seem to work on gh-pages -->
 
-  <link rel="stylesheet" href="{{ " ./assets/main.css" }}">
-  <link rel="stylesheet" href="{{ " ./assets/main-old.css" }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css"  | relative_url}}">
+  <link rel="stylesheet" href="{{ "/assets/main-old.css" | relative_url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include google-analytics.html -%}
