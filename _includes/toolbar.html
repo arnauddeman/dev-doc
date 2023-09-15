@@ -33,7 +33,7 @@
           {%- if my_page.position == 'center'-%}
           
             {%- if my_page.title and  my_page.is_menu_entry -%}
-            <div class="nav-item">
+            <div class="nav-item"   style="order:{{my_page.order}};">
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             </div>
             {%- endif -%}
@@ -47,7 +47,7 @@
           {%- if my_page.position == 'right'-%}
           
             {%- if my_page.title and  my_page.is_menu_entry -%}
-            </div>
+            <div class="nav-item"   style="order:{{my_page.order}};">
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             </div>
             {%- endif -%}
