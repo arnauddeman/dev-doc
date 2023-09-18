@@ -6,3 +6,5 @@ is_menu_entry: true
 position: left
 order: 10
 ---
+
+ {%- include posts.html -%} 
