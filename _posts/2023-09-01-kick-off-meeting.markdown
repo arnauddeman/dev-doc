@@ -2,24 +2,22 @@
 topic: Start of work
 attendees: Christian Daviau, Julien Gribonvald, Arnaud Deman.
 author: Arnaud Deman
-excerpt: first meeting for the arrival of A. Deman
+excerpt: First meeting for the arrival of A. Deman (sample)
 sections: 
     - {
-        title: Exemple,
-        content: First fersino of the produc
-        dfsfsd dmsflsqmflq lmdqkfmqlkdfmq dlfkqlfkqm,
-        actions_to_take: [
-            to do,
-            lkmfkmsldfk
-        ]
+        title: Administrative,
+        content: Administrative questions regarding the organization of work,
+        
     }
     - {
-        sdfsdfs: 'Exempdsfsdfsdfle'
+        title: 'Technical',
+        content: Presentation of the project,
+        actions_to_take: [
+            Read the white book of ePortFolio,
+            Start to look at the API Managers,
+            Start a dev doc based on gh-pages
+        ]
     }
 ---
 
-XXX
-test
-<!-- title: 'Exemple'
-    content: >
-        First fersino of the produc -->
+
