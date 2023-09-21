@@ -58,8 +58,8 @@ order: 1                       // The link will be placed at first position in t
 ### How to add metting report
 
 The meeting reports are located in the spécific [jekyll's_post folder](https://jekyllrb.com/docs/posts/){:target="_blank"}. \
-The files in this directory are listed by Jekyll and respect this naming convention : YYYY-MM-DD-Title-of-the-report.markdown. \
-Exemple: 2023-09-01-kick-off-meeting.markdown.
+The files in this directory are listed by Jekyll and respect this naming convention : YYYY-MM-DD-Title-of-the-report.markdown (e.g.: 2023-09-01-kick-off-meeting.markdown).\
+To add a new report, add a file which respects this naming convention in the _post directory.
 
 #### Reports metadata
 
@@ -131,3 +131,9 @@ Will be rendered as this Diagram :
       B-->D;
       C-->D;
 ```
+
+### Test locally
+The GitHub Pages site is set to be built from the main branch. As it can take some time to be published after a commit (up to 10 minutes), it is convenient to test locally first.
+<pre>
+git clone https://github.com/avenirs-esr/dev-doc
+</pre>
